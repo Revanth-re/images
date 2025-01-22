@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(231, 255, 136);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fe{
+display: flex;
+gap: 10px;
+align-items: center;
+justify-self: center;
+
+}
+.backend{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+    
+
+}
+.backend img{
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.fe img{
+    margin: 10px;
+    border-radius: 8px;
+    border: 4px solid black;
+}
+.Frameworks{
+    
+        display: flex;
+     gap: 10px;
+        align-items: center;
+        justify-self: center;
+
+        border-radius: 5px;
+}
+.Frameworks img{
+    margin: 10px;
+   border-radius: 8px;
+   border: 4px solid black;
+}
+ 
+.hover {
+    width: 200px;            
+    margin:10px;           
+    transition: opacity 0.3s ease; 
+
+  }
+  
+ 
+  .hover:hover {
+    opacity: 0.5;   
+    border-color: rgb(229, 84, 36);  
+      
+  }
+  .width
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .width img{
+    width:500px;
+border-radius: 2px;
+border: 5px solid black;
+  }
+  @media ( max-width: 768px) {
+     .width img {
+    width:200px;
+    height:150px;
+   
+    }
+    .Frameworks img{
+       width: 100px;
+       height:50px;
+    }
+    .backend img{
+        width: 100px;
+        height: 50px;
+    }
+  }
+  .mongo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+    
+
+  }
+  .mongo img{
+    border-radius: 30px;
+    width: 100px;
+    border: 4px solid black;
+  }
+  .footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+    
+
+  }
+  .footer img{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: 4px solid black;
+  }
